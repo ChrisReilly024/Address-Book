@@ -9,5 +9,7 @@ class PhoneNumber
     def to_s
         "#{kind}: #{phone}"
     end
-
 end
+
+# v = PhoneNumber.new('Mobile', '555-555-5555')
+
